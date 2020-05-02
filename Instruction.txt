@@ -1,0 +1,4 @@
+How to run this project:
+1. Install docker in linux. In my case I used red hat linux.
+2. Clone dockerweb project.
+3. Run docker-compose.yml file using command docker-compose up in current directory.

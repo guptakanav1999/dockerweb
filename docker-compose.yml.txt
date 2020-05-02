@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    build: .
+    port:
+      - 8080:80
+    volumes:
+      - wp_storage_new:/var/www/html
+
+volumes:
+   wp_storage_new:
