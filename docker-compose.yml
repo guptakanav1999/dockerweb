@@ -3,7 +3,7 @@ services:
   web:
     image: 103.46.239.136:5000/task:latest
     ports:
-      - 81
+      - 85:81
     volumes:
       - wp_storage_new:/usr/share/nginx/html
 
