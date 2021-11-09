@@ -2,10 +2,11 @@ version: '3'
 services:
   web:
     build: .
-    port:
-      - 8080:80
+    ports:
+      - 81
     volumes:
-      - wp_storage_new:/var/www/html
+      - wp_storage_new:/usr/share/nginx/html
 
 volumes:
    wp_storage_new:
+
